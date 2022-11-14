@@ -48,7 +48,7 @@ class GlobalController extends GetxController {
       // update latitude and longitude
       _latitude.value = value.latitude;
       _longitude.value = value.longitude;
-      _isLoading.value = false;
+      
       
 
       // calling weather api
